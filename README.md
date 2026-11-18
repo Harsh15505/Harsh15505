@@ -1,176 +1,136 @@
-<!-- ✿ hi, curious one! the stats cards below are regenerated daily by .github/workflows/stats.yml ✿ -->
+<!-- Every card on this page is drawn by scripts/profile.py and refreshed daily by GitHub Actions. -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFC2D6,50:D7C6FF,100:A8E6FF&height=200&section=header&text=hi,%20i'm%20harsh%20%E2%9C%BF&fontSize=52&fontColor=5B4B8A&fontAlignY=36&desc=backend%20dev%20%C2%B7%20pos%20whisperer%20%C2%B7%20occasional%20sketcher&descSize=18&descAlignY=58&animation=fadeIn" width="100%" alt="hi, i'm harsh" />
+  <img src="./assets/header.svg" width="100%" alt="Trainer card: Harsh Bhavsar, Backend Engineer, Ahmedabad" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/Harsh15505">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=FF8FB1&center=true&vCenter=true&width=640&lines=I+build+backends+that+real+restaurants+run+on;236+MCP+tools+so+AI+assistants+can+talk+to+CRMs;25000%2B+bills+%26+%E2%82%B950L%2B+processed+through+my+POS;IEEE+author+%C2%B7+CGPA+9.33+%C2%B7+JEE+Adv+'23;sketching+while+the+build+runs+(%EF%BD%A1%E2%80%A2%E1%B4%97%E2%80%A2%EF%BD%A1)" alt="typing intro" />
-  </a>
+  <img src="./assets/dialog.svg" width="100%" alt="HARSH builds backend systems that real businesses run on: POS, live queues and AI." />
+</p>
+
+## Trainer profile
+
+I'm a backend engineer from Ahmedabad. I build the software that restaurants, bakeries and shops run on every day: point-of-sale platforms, kitchen displays, live queues and the APIs behind them.
+
+- **Production first.** My systems run on real counters, so I design for flaky networks, many devices at once and printers that misbehave.
+- **Realtime by default.** Waiter, cashier and kitchen stay in sync, and transactional writes make sure nothing gets billed twice.
+- **AI that can act.** I build MCP servers and sandboxed execution so AI assistants can safely work inside business tools.
+
+## My party
+
+<p align="center">
+  <img src="./assets/party.svg" width="100%" alt="My party: TypeScript, Node.js, React, Next.js, Firebase, Python" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/harsh-bhavsar-6559b62a8"><img src="https://img.shields.io/badge/LinkedIn-say%20hi!-FFB5D0?style=for-the-badge&logo=linkedin&logoColor=5B4B8A&labelColor=FFF0F5" alt="LinkedIn" /></a>
-  <img src="https://img.shields.io/badge/based%20in-Ahmedabad%2C%20IN-D7C6FF?style=for-the-badge&labelColor=F6F0FF&color=D7C6FF" alt="Ahmedabad" />
-  <img src="https://komarev.com/ghpvc/?username=Harsh15505&label=visitors&color=a8e6ff&style=for-the-badge" alt="visitors" />
+  <sub>Also in the PC box</sub><br/>
+  <img src="https://skillicons.dev/icons?i=express,nestjs,fastapi,postgres,supabase,prisma,redis,docker,tailwind,vercel,git,sklearn,androidstudio&perline=13" alt="Express, NestJS, FastAPI, PostgreSQL, Supabase, Prisma, Redis, Docker, Tailwind, Vercel, Git, scikit-learn, Android Studio" />
 </p>
 
----
+## Pokédex: production work
 
-### 🌷 about me
+<sub>Software running in real businesses. The source is private client code, so these entries tell the story instead.</sub>
 
-```ts
-const harsh = {
-  studying:   "B.Tech Computer Engineering @ PDEU (2023 – 2027) · CGPA 9.33",
-  interned:   "Backend Developer @ Chaintech Network (Apr – Aug 2026)",
-  loves:      ["backends that don't fall over", "real-time systems", "thermal printers 🖨️"],
-  stack:      ["TypeScript", "Node.js", "Next.js", "PostgreSQL", "Supabase", "Python"],
-  published:  "IEEE · Explainable ML for air pollution & child respiratory health",
-  offline:    ["sketching ✏️", "chai ☕", "speaking 4 languages (EN · HI · GU · MR)"],
-};
-```
+<p align="center">
+  <img src="./assets/dex-001.svg" width="49%" alt="No.001 Chaska POS: hybrid Android POS in 6 branches, 25,000+ bills, ₹50L+ revenue" />
+  <img src="./assets/dex-002.svg" width="49%" alt="No.002 MCP Servers: 236 tools across HubSpot, Zoho CRM and Shopify" />
+  <img src="./assets/dex-003.svg" width="49%" alt="No.003 Mangleshwar POS: cloud POS and franchise ordering for a bakery" />
+  <img src="./assets/dex-004.svg" width="49%" alt="No.004 Ketli Vaar: realtime restaurant waitlists" />
+  <img src="./assets/dex-005.svg" width="49%" alt="No.005 Shahi Sigdi: offline LAN restaurant POS" />
+  <img src="./assets/dex-006.svg" width="49%" alt="No.006 Priti Sales: Android retail-sales app" />
+</p>
 
----
-
-### 🍰 things I've shipped that real people use
-
-> most of my best work lives in private client repos 🔒, so here's the story instead of the source!
+## PC box: projects
 
 <table>
-<tr>
-<td width="50%" valign="top">
-
-#### 🍛 Chaska POS
-Hybrid Android POS working in **6 Chaska branches across Ahmedabad**, plus a master reports dashboard for the owners.
-- concurrency-safe multi-device ordering (Firestore transactions, zero duplicate KOTs)
-- native **Bluetooth ESC/POS printing** via a custom Capacitor plugin
-- self-hosted OTA updates + dynamic UPI QR billing
-- **25,000+ bills placed · ₹50 lakh+ revenue processed** since launch
-
-`Next.js` `TypeScript` `Capacitor` `Firebase` · 🔒 client · [demo ↗](https://ordering-billing-prototype.vercel.app/)
-
-</td>
-<td width="50%" valign="top">
-
-#### 🥐 Mangleshwar Bakery POS
-Cloud POS + franchise ordering platform for a bakery with multiple branches.
-- PostgreSQL with role-based access & branch-wise data isolation
-- real-time inventory, **Kitchen Display System**, production planning
-- async receipt printing + a WhatsApp notification server
-- owner dashboards for branch performance
-
-`Next.js` `Supabase` `PostgreSQL` `Baileys` · 🔒 client · [staging ↗](https://mangleshwar-puff-pos-staging.vercel.app/orders/)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🤖 Enterprise MCP servers · Chaintech
-3 production **Model Context Protocol** servers so AI assistants can safely work inside business tools.
-- **236 tools**: HubSpot (112) · Zoho CRM (70) · Shopify (54)
-- OAuth 2.0 + REST integrations
-- sandboxed skill execution with **Docker + gVisor**, Redis & BullMQ queues
-
-`TypeScript` `Node.js` `MCP SDK` `Docker` `Redis` · 🏢 company code
-
-</td>
-<td width="50%" valign="top">
-
-#### ⏳ Ketli Vaar? <sub>(કેટલી વાર?)</sub>
-"How long?" — a real-time restaurant waitlist. Customers join by scanning a QR, staff run the queue from a live dashboard, everyone gets pinged on WhatsApp.
-- Supabase Realtime for instant queue updates
-- multi-restaurant admin with full user management
-
-`Next.js 16` `Supabase` `Tailwind` `shadcn/ui` · 🔒 private
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🔥 Shahi Sigdi · offline LAN POS
-A restaurant POS that works with **no internet at all**: waiter, kitchen and billing screens talk over the local network.
-
-`Next.js` `Express` `Socket.io` `SQLite` `Electron` · 🔒 client
-
-</td>
-<td width="50%" valign="top">
-
-#### 🛒 Priti Sales · retail app
-Android retail-sales management app for a distributor, with over-the-air updates.
-
-`React` `Capacitor` `Supabase` · 🔒 client
-
-<sub>✨ + POS builds for Idly King, Danny's Coffee Bar & Bhagod</sub>
-
-</td>
-</tr>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/681.gif" height="64" alt="" /><br/>
+      <a href="https://github.com/Harsh15505/FarAway-Examination"><b>FortisExam</b></a><br/>
+      <sub>Zero-trust, cryptographically accountable exam platform</sub><br/>
+      <a href="https://far-away-examination.vercel.app">live&nbsp;↗</a>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/178.gif" height="64" alt="" /><br/>
+      <a href="https://github.com/Harsh15505/C3E1xIngenious-7.0"><b>Urban Intelligence</b></a><br/>
+      <sub>20+ FastAPI endpoints and 7-day ML forecasts for city data</sub><br/>
+      <a href="https://c3-e1x-ingenious-7-0-y7f6.vercel.app">live&nbsp;↗</a>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/446.gif" height="64" alt="" /><br/>
+      <a href="https://github.com/Harsh15505/KitchenManagementSystem-HizenAssignment"><b>Fernleaf Kitchen Ops</b></a><br/>
+      <sub>Orders to stations to dispatch to billing. Next.js + NestJS</sub><br/>
+      <a href="https://kitchen-management-hizen.vercel.app">live&nbsp;↗</a>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/113.gif" height="64" alt="" /><br/>
+      <a href="https://github.com/Harsh15505/PharmacyPrototype"><b>Pharmacy Prototype</b></a><br/>
+      <sub>Pharmacy ordering and inventory</sub><br/>
+      <a href="https://pharmacy-prototype-self.vercel.app">live&nbsp;↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="25%">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif" height="64" alt="" /><br/>
+      <a href="https://github.com/Harsh15505/-3DUrbanAssests"><b>3D Urban Assets</b></a><br/>
+      <sub>Street photos to a semantic 3D map of poles, signs and lights</sub><br/>
+      <sub>research</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/201.gif" height="64" alt="" /><br/>
+      <a href="https://github.com/Harsh15505/mini-project-encrypted-messenger"><b>Encrypted Messenger</b></a><br/>
+      <sub>Diffie–Hellman key exchange and end-to-end encrypted chat</sub><br/>
+      <sub>code</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/95.gif" height="64" alt="" /><br/>
+      <a href="https://github.com/Harsh15505/landmannalaugar-terrain-renderer"><b>Terrain Renderer</b></a><br/>
+      <sub>Real-time 3D terrain of Iceland with live satellite and weather</sub><br/>
+      <sub>code</sub>
+    </td>
+    <td align="center" width="25%">
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/707.gif" height="64" alt="" /><br/>
+      <a href="https://github.com/Harsh15505/ReBAC-Implementation"><b>ReBAC</b></a><br/>
+      <sub>Relationship-based access control in NestJS</sub><br/>
+      <sub>code</sub>
+    </td>
+  </tr>
 </table>
 
----
-
-### 🧪 open projects you can poke at
-
-| | project | what it does | try it |
-|:-:|---|---|:-:|
-| 🛡️ | [**FortisExam**](https://github.com/Harsh15505/FarAway-Examination) | zero-trust, cryptographically accountable exam infrastructure | [live ↗](https://far-away-examination.vercel.app) |
-| 🏙️ | [**Urban Intelligence & Forecasting**](https://github.com/Harsh15505/C3E1xIngenious-7.0) | 20+ FastAPI endpoints + 7-day ML forecasts for city data (team of 4) | [live ↗](https://c3-e1x-ingenious-7-0-y7f6.vercel.app) |
-| 🍱 | [**Fernleaf Kitchen Ops**](https://github.com/Harsh15505/KitchenManagementSystem-HizenAssignment) | orders → kitchen stations → dispatch → billing, for a boxed-meal kitchen | [live ↗](https://kitchen-management-hizen.vercel.app) |
-| 🗺️ | [**3D Urban Assets**](https://github.com/Harsh15505/-3DUrbanAssests) | street photos (KITTI-360) → semantic 3D map of poles, signs & lights | research |
-| 💊 | [**Pharmacy Prototype**](https://github.com/Harsh15505/PharmacyPrototype) | pharmacy ordering & inventory prototype | [live ↗](https://pharmacy-prototype-self.vercel.app) |
-| 🔐 | [**Encrypted Messenger**](https://github.com/Harsh15505/mini-project-encrypted-messenger) | Diffie–Hellman key exchange + end-to-end encrypted chat | code |
-| 🏔️ | [**Landmannalaugar Renderer**](https://github.com/Harsh15505/landmannalaugar-terrain-renderer) | real-time 3D terrain of Iceland with live satellite & weather | code |
-| 🔑 | [**ReBAC Implementation**](https://github.com/Harsh15505/ReBAC-Implementation) | relationship-based access control in NestJS | code |
-
----
-
-### 📄 research
-
-**Evaluating the Association Between Ambient Air Pollution and Pediatric Respiratory Admissions Using Explainable Machine Learning** — *IEEE ICE2NT 2026 (accepted)*
-<br/>XGBoost + SHAP on 1,110 real patient records from Ahmedabad joined with OpenAQ air-quality data · AUC-ROC **0.775**
-
----
-
-### 🧸 my toy box
+## Research
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,nodejs,express,nestjs,nextjs,react,python,fastapi,postgres,supabase,firebase,prisma,redis,docker,tailwind,vercel,git,sklearn,tensorflow,androidstudio&perline=7" alt="tech stack" />
+  <img src="./assets/research.svg" width="100%" alt="IEEE ICE2NT 2026: air pollution and pediatric respiratory admissions with explainable ML, AUC 0.775" />
 </p>
 
----
-
-### 🌱 my little garden of stats
+## Base stats
 
 <p align="center">
-  <img src="./assets/stats.svg" height="300" alt="Harsh's GitHub stats, including private repos" />
-  <img src="./assets/languages.svg" height="300" alt="Top languages, including private repos" />
+  <img src="./assets/stats.svg" width="100%" alt="GitHub stats including private repositories" />
 </p>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Harsh15505/Harsh15505/output/snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/Harsh15505/Harsh15505/output/snake.svg" alt="a pastel snake eating my contribution graph" />
-  </picture>
+  <img src="./assets/route.svg" width="100%" alt="Contribution graph drawn as a grassy route" />
 </p>
 
----
-
-### 🍡 little things about me
-
-- 🎯 qualified **JEE Advanced 2023**
-- 🧠 **Elite + Top 5%** (90/100) in NPTEL Deep Learning, IIT Ropar
-- 🖨️ I've debugged more thermal printers than I'd like to admit
-- ✏️ I sketch, the pencil kind, not the Figma kind
-- 🗣️ fluent in English, Hindi, Gujarati, Marathi... and TypeScript
+## A wild Pokémon appeared!
 
 <p align="center">
-  <b>💌 building something for a restaurant, a shop, or an AI agent? let's talk!</b>
+  <img src="./assets/encounter.svg" width="100%" alt="Today's wild Pokémon and the visitor Pokédex" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Harsh15505/Harsh15505/issues/new?title=catch%3A%20throw%20a%20Pok%C3%A9%20Ball&body=Just%20press%20**Create**%20%28or%20**Submit%20new%20issue**%29.%0A%0AA%20GitHub%20Action%20throws%20the%20ball%20at%20today%27s%20wild%20Pok%C3%A9mon%20and%20replies%20here%20in%20about%20a%20minute.%20One%20throw%20per%20trainer%20per%20day.">
+    <img src="./assets/button.svg" width="320" alt="Throw a Poké Ball" />
+  </a>
+  <br/>
+  <sub>One throw per trainer per day · a new Pokémon appears at 00:00 IST · your catch joins the Visitor Dex</sub>
+</p>
+
+<br/>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/harsh-bhavsar-6559b62a8">LinkedIn</a>
   <br/><br/>
-  <a href="https://www.linkedin.com/in/harsh-bhavsar-6559b62a8"><img src="https://img.shields.io/badge/-let's%20connect-FF8FB1?style=for-the-badge&logo=linkedin&logoColor=white" alt="connect on LinkedIn" /></a>
+  <sub>Sprites from <a href="https://github.com/PokeAPI/sprites">PokeAPI</a>. Pokémon © Nintendo, Game Freak and The Pokémon Company. Fan-made and non-commercial.</sub>
 </p>
-
-<p align="center">thanks for stopping by (｡•ᴗ•｡)♡</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:A8E6FF,50:D7C6FF,100:FFC2D6&height=110&section=footer" width="100%" alt="" />
