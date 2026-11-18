@@ -31,14 +31,38 @@ I'm a backend engineer from Ahmedabad. I build the software that restaurants, ba
 
 <sub>Software running in real businesses. The source is private client code, so these entries tell the story instead.</sub>
 
-<p align="center">
-  <img src="./assets/dex-001.svg" width="49%" alt="No.001 Chaska POS: hybrid Android POS in 6 branches, 25,000+ bills, ₹50L+ revenue" />
-  <img src="./assets/dex-002.svg" width="49%" alt="No.002 MCP Servers: 236 tools across HubSpot, Zoho CRM and Shopify" />
-  <img src="./assets/dex-003.svg" width="49%" alt="No.003 Mangleshwar POS: cloud POS and franchise ordering for a bakery" />
-  <img src="./assets/dex-004.svg" width="49%" alt="No.004 Ketli Vaar: realtime restaurant waitlists" />
-  <img src="./assets/dex-005.svg" width="49%" alt="No.005 Shahi Sigdi: offline LAN restaurant POS" />
-  <img src="./assets/dex-006.svg" width="49%" alt="No.006 Priti Sales: Android retail-sales app" />
-</p>
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./assets/dex-001.svg" width="100%" alt="No.001 Chaska POS: hybrid Android POS in 6 branches, 25,000+ bills, ₹50L+ revenue" /><br/>
+      <sub><a href="https://ordering-billing-prototype.vercel.app/">live demo ↗</a> · private client repo</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="./assets/dex-002.svg" width="100%" alt="No.002 MCP Servers: 236 tools across HubSpot, Zoho CRM and Shopify" /><br/>
+      <sub>company code · Chaintech Network</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./assets/dex-003.svg" width="100%" alt="No.003 Mangleshwar POS: cloud POS and franchise ordering for a bakery" /><br/>
+      <sub><a href="https://mangleshwar-puff-pos-staging.vercel.app/orders/">staging ↗</a> · private client repo</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="./assets/dex-004.svg" width="100%" alt="No.004 Ketli Vaar: realtime restaurant waitlists" /><br/>
+      <sub><a href="https://baarise.vercel.app">live ↗</a> · private repo</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./assets/dex-005.svg" width="100%" alt="No.005 Shahi Sigdi: offline LAN restaurant POS" /><br/>
+      <sub>private client repo · runs offline on-site</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="./assets/dex-006.svg" width="100%" alt="No.006 Priti Sales: Android retail-sales app" /><br/>
+      <sub><a href="https://priti-sales-corporation.vercel.app">live ↗</a> · private client repo</sub>
+    </td>
+  </tr>
+</table>
 
 ## PC box: projects
 
@@ -48,25 +72,25 @@ I'm a backend engineer from Ahmedabad. I build the software that restaurants, ba
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/681.gif" height="64" alt="" /><br/>
       <a href="https://github.com/Harsh15505/FarAway-Examination"><b>FortisExam</b></a><br/>
       <sub>Zero-trust, cryptographically accountable exam platform</sub><br/>
-      <a href="https://far-away-examination.vercel.app">live&nbsp;↗</a>
+      <a href="https://github.com/Harsh15505/FarAway-Examination">code</a> · <a href="https://far-away-examination.vercel.app">live&nbsp;↗</a>
     </td>
     <td align="center" width="25%">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/178.gif" height="64" alt="" /><br/>
       <a href="https://github.com/Harsh15505/C3E1xIngenious-7.0"><b>Urban Intelligence</b></a><br/>
       <sub>20+ FastAPI endpoints and 7-day ML forecasts for city data</sub><br/>
-      <a href="https://c3-e1x-ingenious-7-0-y7f6.vercel.app">live&nbsp;↗</a>
+      <a href="https://github.com/Harsh15505/C3E1xIngenious-7.0">code</a> · <a href="https://c3-e1x-ingenious-7-0-y7f6.vercel.app">live&nbsp;↗</a>
     </td>
     <td align="center" width="25%">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/446.gif" height="64" alt="" /><br/>
       <a href="https://github.com/Harsh15505/KitchenManagementSystem-HizenAssignment"><b>Fernleaf Kitchen Ops</b></a><br/>
       <sub>Orders to stations to dispatch to billing. Next.js + NestJS</sub><br/>
-      <a href="https://kitchen-management-hizen.vercel.app">live&nbsp;↗</a>
+      <a href="https://github.com/Harsh15505/KitchenManagementSystem-HizenAssignment">code</a> · <a href="https://kitchen-management-hizen.vercel.app">live&nbsp;↗</a>
     </td>
     <td align="center" width="25%">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/113.gif" height="64" alt="" /><br/>
       <a href="https://github.com/Harsh15505/PharmacyPrototype"><b>Pharmacy Prototype</b></a><br/>
       <sub>Pharmacy ordering and inventory</sub><br/>
-      <a href="https://pharmacy-prototype-self.vercel.app">live&nbsp;↗</a>
+      <a href="https://github.com/Harsh15505/PharmacyPrototype">code</a> · <a href="https://pharmacy-prototype-self.vercel.app">live&nbsp;↗</a>
     </td>
   </tr>
   <tr>
@@ -74,25 +98,25 @@ I'm a backend engineer from Ahmedabad. I build the software that restaurants, ba
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif" height="64" alt="" /><br/>
       <a href="https://github.com/Harsh15505/-3DUrbanAssests"><b>3D Urban Assets</b></a><br/>
       <sub>Street photos to a semantic 3D map of poles, signs and lights</sub><br/>
-      <sub>research</sub>
+      <a href="https://github.com/Harsh15505/-3DUrbanAssests">code</a>
     </td>
     <td align="center" width="25%">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/201.gif" height="64" alt="" /><br/>
       <a href="https://github.com/Harsh15505/mini-project-encrypted-messenger"><b>Encrypted Messenger</b></a><br/>
       <sub>Diffie–Hellman key exchange and end-to-end encrypted chat</sub><br/>
-      <sub>code</sub>
+      <a href="https://github.com/Harsh15505/mini-project-encrypted-messenger">code</a>
     </td>
     <td align="center" width="25%">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/95.gif" height="64" alt="" /><br/>
       <a href="https://github.com/Harsh15505/landmannalaugar-terrain-renderer"><b>Terrain Renderer</b></a><br/>
       <sub>Real-time 3D terrain of Iceland with live satellite and weather</sub><br/>
-      <sub>code</sub>
+      <a href="https://github.com/Harsh15505/landmannalaugar-terrain-renderer">code</a>
     </td>
     <td align="center" width="25%">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/707.gif" height="64" alt="" /><br/>
       <a href="https://github.com/Harsh15505/ReBAC-Implementation"><b>ReBAC</b></a><br/>
       <sub>Relationship-based access control in NestJS</sub><br/>
-      <sub>code</sub>
+      <a href="https://github.com/Harsh15505/ReBAC-Implementation">code</a>
     </td>
   </tr>
 </table>
