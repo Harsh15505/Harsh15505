@@ -5,10 +5,14 @@
   "name": "BASTIODON",
   "level": 12,
   "capture_rate": 45,
-  "throws": {}
+  "throws": {
+   "Harsh15505": "fled"
+  }
  },
  "dex": {},
- "throws": 0,
- "trainers": [],
+ "throws": 1,
+ "trainers": [
+  "Harsh15505"
+ ],
  "recent": []
 }
