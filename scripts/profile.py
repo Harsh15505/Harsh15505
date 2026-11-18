@@ -46,7 +46,7 @@ PROFILE = {
     "region": "Ahmedabad, India",
     "money": "₹50L+ processed",
     "badges": ["MCP", "POS", "REALTIME", "OAUTH", "DOCKER", "ML", "IEEE", "SQL"],
-    "partner": 25,
+    "partner": 727,  # Incineroar
     "parade": [25, 133, 1, 4, 7, 94, 448, 151],
     "dialog": ["HARSH builds backend systems that real", "businesses run on: POS, live queues & AI."],
 }
