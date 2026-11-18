@@ -15,12 +15,12 @@
 </style>
 <rect x="1.5" y="1.5" width="437" height="297" rx="20" fill="#FFF7FB" stroke="#F9C6DA" stroke-width="2.5" stroke-dasharray="7 5"/>
 <text x="26" y="40" class="t">Harsh's coding garden</text>
-<g class="in" style="animation-delay:0.00s"><text x="26" y="88" font-size="20">🌱</text><text x="58" y="84" class="v">936</text><text x="58" y="101" class="l">contributions (all time)</text></g>
-<g class="in" style="animation-delay:0.12s"><text x="231" y="88" font-size="20">🍓</text><text x="263" y="84" class="v">837</text><text x="263" y="101" class="l">contributions in 2026</text></g>
-<g class="in" style="animation-delay:0.24s"><text x="26" y="140" font-size="20">🧁</text><text x="58" y="136" class="v">928</text><text x="58" y="153" class="l">commits across my repos</text></g>
+<g class="in" style="animation-delay:0.00s"><text x="26" y="88" font-size="20">🌱</text><text x="58" y="84" class="v">938</text><text x="58" y="101" class="l">contributions (all time)</text></g>
+<g class="in" style="animation-delay:0.12s"><text x="231" y="88" font-size="20">🍓</text><text x="263" y="84" class="v">839</text><text x="263" y="101" class="l">contributions in 2026</text></g>
+<g class="in" style="animation-delay:0.24s"><text x="26" y="140" font-size="20">🧁</text><text x="58" y="136" class="v">929</text><text x="58" y="153" class="l">commits across my repos</text></g>
 <g class="in" style="animation-delay:0.36s"><text x="231" y="140" font-size="20">🔥</text><text x="263" y="136" class="v">3 days</text><text x="263" y="153" class="l">current streak</text></g>
 <g class="in" style="animation-delay:0.48s"><text x="26" y="192" font-size="20">🏆</text><text x="58" y="188" class="v">21 days</text><text x="58" y="205" class="l">longest streak</text></g>
-<g class="in" style="animation-delay:0.60s"><text x="231" y="192" font-size="20">📦</text><text x="263" y="188" class="v">48</text><text x="263" y="205" class="l">repos (26 private)</text></g>
+<g class="in" style="animation-delay:0.60s"><text x="231" y="192" font-size="20">📦</text><text x="263" y="188" class="v">49</text><text x="263" y="205" class="l">repos (26 private)</text></g>
 <g class="in" style="animation-delay:0.72s"><text x="26" y="244" font-size="20">🚀</text><text x="58" y="240" class="v">22</text><text x="58" y="257" class="l">apps deployed live</text></g>
 <g transform="translate(355,236)">
   <path d="M6,22 L10,4 L20,15 Q30,11 40,15 L50,4 L54,22 Q58,44 30,46 Q2,44 6,22Z" fill="#FFFFFF" stroke="#5B4B8A" stroke-width="2.2" stroke-linejoin="round"/>
