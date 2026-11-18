@@ -46,6 +46,7 @@ PROFILE = {
     "region": "Ahmedabad, India",
     "money": "₹50L+ processed",
     "badges": ["MCP", "POS", "REALTIME", "OAUTH", "DOCKER", "ML", "IEEE", "SQL"],
+    "partner": 25,
     "parade": [25, 133, 1, 4, 7, 94, 448, 151],
     "dialog": ["HARSH builds backend systems that real", "businesses run on: POS, live queues & AI."],
 }
@@ -221,7 +222,7 @@ def write(name, content):
 
 
 # ---------------------------------------------------------------- cards
-def header_svg(info, avatar_uri):
+def header_svg(info):
     W, H = 1000, 440
     defs = ('<defs><linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#93C8FF"/>'
             '<stop offset="1" stop-color="#4C80D6"/></linearGradient>'
@@ -239,11 +240,12 @@ def header_svg(info, avatar_uri):
         y = 106 + i * 29
         p.append(f'<g class="fade" style="animation-delay:{.1 * i:.1f}s">' + t(48, y, k, 11, MUTED) + t(214, y, v, 13) +
                  f'<line x1="48" y1="{y + 9}" x2="652" y2="{y + 9}" stroke="#E5DCC3" stroke-width="2" stroke-dasharray="4 4"/></g>')
-    # avatar
+    # partner pokemon (the profile photo already sits next to the README)
     p.append(panel(696, 74, 280, 196, CREAM, "#2C5AA0", 14, 4))
-    p.append(f'<rect x="752" y="88" width="168" height="168" rx="10" fill="{LCD}" stroke="{LINE}" stroke-width="3"/>')
-    p.append(f'<clipPath id="av"><rect x="755" y="91" width="162" height="162" rx="8"/></clipPath>'
-             f'<image href="{avatar_uri}" x="755" y="91" width="162" height="162" clip-path="url(#av)" style="image-rendering:pixelated"/>')
+    p.append(f'<rect x="716" y="88" width="240" height="168" rx="10" fill="{LCD}" stroke="{LINE}" stroke-width="3"/>')
+    p.append(t(836, 110, "PARTNER", 10, MUTED, anchor="middle"))
+    p.append('<ellipse cx="836" cy="232" rx="70" ry="12" fill="#BFE3A6"/>')
+    p.append(img(info["partner"], 836, 238, 2.0, fit=(200, 120)))
     # badges
     p.append(panel(24, 286, 952, 52, "#24467F", "#183563", 12, 3))
     p.append(t(44, 318, "BADGES", 11, "#FFE27A"))
@@ -621,13 +623,10 @@ def build():
         members.append(dict(pid=pid, poke=species(pid)[0], tech=tech, role=role, type=typ,
                             lv=sum(uses(r, tech) for r in repos)))
 
-    avatar = fetch(f"https://avatars.githubusercontent.com/u/{me['databaseId']}?s=54")
-    avatar_uri = "data:image/png;base64," + base64.b64encode(avatar).decode() if avatar[:4] == b"\x89PNG" else \
-        "data:image/jpeg;base64," + base64.b64encode(avatar).decode()
     info = dict(PROFILE, repos=len(repos), started=dt.date.fromisoformat(me["createdAt"][:10]).strftime("%b %Y").upper())
 
     cal = me["contributionsCollection"]["contributionCalendar"]
-    write("header.svg", header_svg(info, avatar_uri))
+    write("header.svg", header_svg(info))
     write("dialog.svg", dialog_svg(PROFILE["dialog"]))
     write("party.svg", party_svg(members))
     for i, e in enumerate(DEX, 1):
