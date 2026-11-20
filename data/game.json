@@ -1,13 +1,11 @@
 {
- "date": "2026-11-19",
+ "date": "2026-11-20",
  "today": {
-  "id": 411,
-  "name": "BASTIODON",
-  "level": 12,
-  "capture_rate": 45,
-  "throws": {
-   "Harsh15505": "fled"
-  }
+  "id": 288,
+  "name": "VIGOROTH",
+  "level": 44,
+  "capture_rate": 120,
+  "throws": {}
  },
  "dex": {},
  "throws": 1,
