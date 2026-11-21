@@ -1,10 +1,10 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "today": {
-  "id": 146,
-  "name": "MOLTRES",
-  "level": 7,
-  "capture_rate": 3,
+  "id": 272,
+  "name": "LUDICOLO",
+  "level": 25,
+  "capture_rate": 45,
   "throws": {}
  },
  "dex": {},
