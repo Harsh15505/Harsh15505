@@ -5,12 +5,15 @@
   "name": "ZEKROM",
   "level": 9,
   "capture_rate": 3,
-  "throws": {}
+  "throws": {
+   "ayaan-goel": "fled"
+  }
  },
  "dex": {},
- "throws": 1,
+ "throws": 2,
  "trainers": [
-  "Harsh15505"
+  "Harsh15505",
+  "ayaan-goel"
  ],
  "recent": []
 }
