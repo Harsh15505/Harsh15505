@@ -1,13 +1,11 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "today": {
-  "id": 644,
-  "name": "ZEKROM",
-  "level": 9,
-  "capture_rate": 3,
-  "throws": {
-   "ayaan-goel": "fled"
-  }
+  "id": 290,
+  "name": "NINCADA",
+  "level": 36,
+  "capture_rate": 255,
+  "throws": {}
  },
  "dex": {},
  "throws": 2,
